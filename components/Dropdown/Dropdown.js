@@ -21,7 +21,12 @@ class Dropdown {
     console.log('triggered');
   }
 }
-
+const body = document.querySelector('body');
+// body.addEventListener('click', (event) => {
+//   const dropdownmenu = querySelector('.dropdown-content');
+//   dropdownmenu.classList.add('dropdown-hidden');
+//   event.stopPropagation();
+// })
 
 // Nothing to do here, just study what the code is doing and move on to the Dropdown class
 let dropdowns = document.querySelectorAll('.dropdown').forEach( dropdown => new Dropdown(dropdown));

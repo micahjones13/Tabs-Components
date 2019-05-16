@@ -2,6 +2,7 @@
 //   constructor(tabsElement){
 //     this.tabsElement = tabsElement;
 
+//     this.tabLink = new TabLink(this.tabsElement);
 
 //   }
 
@@ -46,6 +47,10 @@ class TabLink {
     // Call the select method on the item associated with this link
     this.tabItem.select();
   }
+  // deselect(){
+  //   const selectedLink = document.querySelector('.tabs-link-selected');
+  //   selectedLink.classList.remove('tabs-link-selected');
+  // }
 }
 
 class TabItem {
